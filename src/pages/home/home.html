@@ -6,18 +6,19 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding>
- <p> Make your world sweeter </p>
+  <p> Make your world sweeter </p>
   <ion-content padding>
-        <ion-row>
-          <ion-col>
-            <button ion-button icon-only (click)="regularShare()" color="primary" clear>
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-only (click)="regularShare()" color="primary" clear>
           <ion-icon class="share-icon" name="share"></ion-icon>
         </button>
-          </ion-col>
-        </ion-row>
-          <button ion-button icon-camera large (click)="cameraOpen()">
-            <ion-icon name="camera"></ion-icon>
-            Camera
-          </button>
+      </ion-col>
+    </ion-row>
+    <ion-img style="width: 150px; height: 150px;" src="../../../assets/imgs/aronia-1k.png"></ion-img>
+    <button ion-button icon-camera large (click)="cameraOpen()">
+      <ion-icon name="camera"></ion-icon>
+      Camera
+    </button>
   </ion-content>
 </ion-content>
