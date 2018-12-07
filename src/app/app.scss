@@ -1,11 +1,15 @@
 // http://ionicframework.com/docs/theming/
 
 .scroll-content{
+    padding: 0;
     overflow-y: hidden;
-    background: #74ebd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5b56be; 
+background: -moz-linear-gradient(-45deg, #5b56be 0%, #262364 100%); 
+background: -webkit-linear-gradient(-45deg, #5b56be 0%,#262364 100%);
+background: linear-gradient(135deg, #5b56be 0%,#262364 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b56be', endColorstr='#262364',GradientType=1 ); 
 }
+
 .toolbar-title{
     font-size: 30px;
     color: #262364;
