@@ -1,21 +1,27 @@
 page-home {
 }
+
+p {
+font-size: 15px;
+color: #262364;
+};
+
 ion-icon[name=camera] {    
     margin-right: 10px;
-} 
-button {
-margin-left: auto;
-margin-right: auto;
+};
+
+button[icon-only]{
+margin-left: 10%;
+margin-left: 10%;
 width: 80%;
-padding-left: 40px;
-padding-right: 40px;
+display: block;
+};
+
+button[icon-camera] {
+margin: 10% 10% 0;
+width: 80%;
 display: block;
 font-family: 'Futura LT Regula';
-    &.cameraButton {
-    background-color: #262364;
-     :hover{
-        background-color: #262364  
-        }
-    } 
+background-color: #262364;
 }
 

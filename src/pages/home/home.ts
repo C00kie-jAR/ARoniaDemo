@@ -19,5 +19,8 @@ export class HomePage {
     var msg = this.compilemsg();
     this.socialSharing.share(msg, null, null, null);
   }
+  cameraOpen(){
+    return null;
+  }
 
 }
