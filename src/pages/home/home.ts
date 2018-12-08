@@ -20,7 +20,12 @@ export class HomePage {
     this.socialSharing.share(msg, null, null, null);
   }
   cameraOpen(){
-    return null;
+    let returnVal = window['Aronia'].openArActivity({}, function () {
+      console.log('success');
+    }, function () {
+      console.log('fail');
+    });
+    console.log(returnVal);
   }
 
 }
